@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.webSite{
+    width: 1440px;
+    margin: auto;
+}
+
+h1{
+    font-size: 55px;
+    font-family: 'Roboto Slab' ;
+    margin: 91px 0px 38px 124px;
+}
+
+.firstBlock{
+    
+}
+
+.textBlock{
+    width: 662px; 
+    display: inline-block;   
+    font-size: 24px;
+    font-family: 'Roboto';
+    margin: 0px 190px 0px 124px;
+    float: left;
+}
+
+.imageBlock{
+    width: 315px;
+    display: inline-block;
+}
+
+.operator{
+    width: 315px;
+}
+
+.ellipse{
+    position: relative;
+    bottom: 30px;
+    right: 20px;
+    z-index: -1;
+}
+
+
+
+
+
+.secondBlock > div{
+    display: inline-block;
+    width: 150px;
+    margin-left: 95px;
+    position: relative;
+    bottom: 70px;
+}
+
+.secondBlock > div > p{
+    font-weight: 400;
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+.operator2{
+    margin: 0px 30px 0px 125px;
+    height: 232px;
+}
+
+h2{
+    font-size: 25px;
+    font-family: 'Roboto';
+}
+
+
+@media ( max-width: 834px){
+    
+    .webSite{
+        width: 834px;
+    }
+    
+    h1{
+        font-size: 32px;
+        margin: 56px 0px 10px 72px;
+    }
+
+    .textBlock{
+        width: 382px;
+        font-size: 14px;
+        margin: 0px 110px 0px 72px;
+    }
+
+    .imageBlock{
+        width: 120px;
+    }
+
+    .operator{
+        width: 182px;
+    }
+
+    .ellipse{
+        width: 212px;
+        bottom: 20px;
+    }
+
+    .operator2{
+        display: none;
+    }
+
+    .secondBlock{
+        margin-top: 100px;
+    }
+
+    .secondBlock > div{
+        width: 100px;
+        margin-left: 55px;
+    }
+
+    .secondBlock > div:nth-child(2){
+        margin-left: 72px;
+    }
+
+    .secondBlock > div > p{
+        font-size: 11px;
+    }
+
+    h2{
+        font-size: 15px;
+    }
+}
+
+
+
+@media ( max-width: 375px){
+
+    .webSite{
+        width: 375px;
+    }
+
+    h1{
+        font-size: 26px;
+        margin: 56px 0px 0px 36px;
+    }
+
+    .textBlock{
+        width: 308px;
+        font-size: 12px;
+        display: inline-block;
+        margin: 30px 33.5px;
+    }
+
+    .imageBlock{
+        display: block;
+        margin: 0px auto 40px;
+    }
+
+    .operator{
+        width: 146px;
+    }
+
+    .ellipse{
+        width: 170px;
+    }
+
+    .secondBlock{
+        
+    }
+
+    .secondBlock > div:nth-child(2){
+        margin-left: 35px;    
+    }
+
+    .secondBlock > div:nth-child(3){
+        margin-left: 50px;    
+    }
+
+    .secondBlock > div:nth-child(4){
+        margin-left: 35px;    
+        margin-top: 30px;
+    }
+
+    .secondBlock > div > p{
+        
+    }
+
+    h2{
+        
+    }
+
+}
